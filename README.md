@@ -188,6 +188,8 @@ Creating Deployment for Grafana.
  Starting the Prometheus and Grafana services with Command.
             
      kubectl apply -k .
+     
+  <img src="apply.png" >   
   
 Checking all the services are Running.
      
