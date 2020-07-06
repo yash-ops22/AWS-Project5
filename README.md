@@ -170,8 +170,25 @@ Creating Deployment for Grafana.
           - name: grafana-vol
             persistentVolumeClaim:
               claimName: pvc-grafana
+              
+ # Step:7
+ Creating a kustomization file for the pod containing both Prometheus and Grafana.
+ 
+     apiVersion: kustomize.config.k8s.io/v1beta1
+     kind: Kustomization
 
+    resources:
+      - pvcprom.yml
+      - grafpvc.yml
+      - prom.yml
+      - graf.yml 
+      - promservice.yml  
+      - grafservice.yml 
 
+ Starting the Prometheus and Grafana services with Command.
+            
+     kubectl apply -k .
   
-  
-  
+Checking all the services are Running.
+     
+     kubectl get all 
