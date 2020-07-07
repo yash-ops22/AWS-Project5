@@ -14,7 +14,8 @@
   scaling, and management. It was originally designed 
   by Google and is now maintained by the Cloud Native
   Computing Foundation.
-  img src="k8s.jpg">
+  
+  <img src="k8s.jpg">
   
 # Prometheus
   Prometheus is an open-source systems monitoring and
@@ -22,7 +23,7 @@
   Since its inception in 2012, many companies and
   organizations have adopted Prometheus, and the 
   project has a very active developer and user community.
-  <img src="prometheus.png">
+  <img src="prom.png">
 
 # Grafana
   Grafana is a multi-platform open source analytics and
