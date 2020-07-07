@@ -209,4 +209,4 @@ Here is our Prometheus WebUI.
 
 WebUI for Grafana.
 
-<img src="grafana.png">
+<img src="grafana1.png">
