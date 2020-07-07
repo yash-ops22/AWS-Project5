@@ -23,7 +23,7 @@
   Since its inception in 2012, many companies and
   organizations have adopted Prometheus, and the 
   project has a very active developer and user community.
-  <img src="prom1.png">
+  <img src="prom1.jpg">
 
 # Grafana
   Grafana is a multi-platform open source analytics and
