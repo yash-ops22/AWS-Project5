@@ -62,7 +62,7 @@
          app: prometheus
      type: NodePort
      ports:
-     - nodePort: 30054
+     - nodePort: 32057
        port: 9090
        targetPort: 9090
        name: prometheus-port
@@ -130,7 +130,7 @@
           app: grafana
         type: NodePort
         ports:
-        - nodePort: 32300
+        - nodePort: 31985
           port: 3000
           targetPort: 3000
           name: port-grafana
