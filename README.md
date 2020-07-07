@@ -194,3 +194,5 @@ Creating Deployment for Grafana.
 Checking all the services are Running.
      
      kubectl get all 
+
+<img src="getall1.png">
