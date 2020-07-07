@@ -199,6 +199,9 @@ Checking all the services are Running.
 
 
 Here is our Prometheus WebUI.
+
 <img src="prometheus.png">
+
 WebUI for Grafana.
+
 <img src="grafana.png">
